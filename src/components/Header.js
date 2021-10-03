@@ -53,11 +53,11 @@ export default function Header() {
 
       <AppBar position="static">
         <Toolbar>
-          <Box sx={{ flexGrow: 1 }} onClick={addchat}> 
-            <img style={{ width: 130 , borderRadius: 16}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-nkauTm0CErv6pFsm8GFnDVnsmI2FK1geOfFBnckNGT2BQzrdI3kWJRr44whf8oR2VTQ&usqp=CAU" alt="Clarusway" />
+          <Box sx={{ flexGrow: 1 }} > 
+            <img style={{ width: 130 , borderRadius: 16}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-nkauTm0CErv6pFsm8GFnDVnsmI2FK1geOfFBnckNGT2BQzrdI3kWJRr44whf8oR2VTQ&usqp=CAU" alt="Clarusway" onClick={() => history.push("/")}/>
           </Box>
           
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1, cursor:"pointer", fontFamily:"girassol" }} onClick={() => history.push("/")}>
+          <Typography variant="h4" component="div" sx={{ display: { xs:"none" , md:"inline-block" } , flexGrow: 1, cursor:"pointer", fontFamily:"girassol" }} onClick={() => history.push("/")}>
           <sup>_______</sup>{" <People Blog> "}<sup>_______</sup>
           </Typography>
          

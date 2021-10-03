@@ -12,8 +12,8 @@ import { BlogContext } from '../context/BlogContext';
 import { useContext} from 'react';
 import { useHistory } from 'react-router';
 import UpdateIcon from '@mui/icons-material/Update';
+import { imageBoxStyle } from './Login';
 
-export const imageBoxStyle = { backgroundImage: `url(${"https://picsum.photos/700/1000"})`, width: 700, height: 1000, boxShadow: 20 }
 
 const theme = createTheme();
 

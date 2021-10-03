@@ -12,8 +12,7 @@ import { BlogContext } from '../context/BlogContext';
 import { useContext} from 'react';
 import { useHistory } from 'react-router';
 import FiberNewIcon from '@mui/icons-material/FiberNew';
-
-export const imageBoxStyle = { backgroundImage: `url(${"https://picsum.photos/700/1000"})`, width: 700, height: 1000, boxShadow: 20 }
+import { imageBoxStyle } from './Login';
 
 const theme = createTheme();
 

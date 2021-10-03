@@ -20,7 +20,7 @@ import { Formik } from "formik"
 import * as Yup from "yup"
 
 
-export const imageBoxStyle = { backgroundImage: `url(${"https://picsum.photos/700/1000"})`, width: 700, height: 1000, boxShadow: 20 }
+export const imageBoxStyle = { display: { xs:"none" , sm:"inline-block" }, backgroundImage: `url(${"https://picsum.photos/700/1000"})`, width: 700, height: 1000, boxShadow: 20 }
 
 const theme = createTheme();
 
